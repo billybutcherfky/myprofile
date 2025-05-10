@@ -168,10 +168,10 @@ section .main-container{
 
 .main-container .image{
   width: 500px;
-  height: 80vh;
+  height: 70vh;
   border-radius: 100%;
   overflow: hidden;
-  box-shadow: 0 0 50px rgb(33, 15, 141);
+  box-shadow: 0 0 50px rgb(243, 14, 7);
 }
 
 .main-container .image img{
@@ -390,6 +390,8 @@ I'm Selecting Directly 'Section Tag' and 'Class'  */
     width: 400px;
     object-fit: cover;
     border-radius: 12px;
+    box-shadow: 0 0 50px rgb(243, 14, 7);
+    animation: animate 1.5s ease-in-out infinite;
   }
   .about-details .right{
     width: 55%;
